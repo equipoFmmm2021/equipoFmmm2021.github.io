@@ -1,12 +1,250 @@
+<!DOCTYPE html>
 <html>
+<title>INFECTED GAME | Homepage | URJC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "TRAFFIC PERSONAL USE", sans-serif}
 
-<head>
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
 
-</head>
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="imagenes/AGS2.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>CAMPAÑA</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>APOYO</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>MULTIMEDIA</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>COMENTARIOS</p>
+  </a>
+</nav>
 
-<body>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
 
-<h1> ¡Hola mundo somos el equipo F! </h1>
+<!-- Pagina principal -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">INFECTED</span> </h1>
+    <p><FONT SIZE=5>ESTA VEZ, SÉ TÚ EL TERROR</font></p>
+
+    <img src="imagenes/Portada juego.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+    <h2 class="w3-text-light-grey">Sinópsis</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p><FONT SIZE=4>Infected es un videojuego que da la vuelta a los juegos de zombis, siendo tú el que controla a los zombis e intentas acabar con la humanidad, todo por un accidente en una investigación americana que acabo propagándose como un virus.
+	Acecha a tus enemigos o comanda hordas de zombis, todo vale mientras asegures la supervivencia de tus iguales. 
+    </font></p>
+    <h3 class="w3-padding-16 w3-text-red"><FONT SIZE=9>ATENCIÓN</font></h3>
+    <p class="w3-padding-16 w3-text-red"><FONT SIZE=5>Esta página simula la campaña de microfinanciación
+	de un videojuego ficticio (no representa un producto real). 
+	</p>
+	<p class="w3-padding-16 w3-text-red">Práctica de Multimedia, 1º GDDV - Curso 20/21 (Móstoles), URJC. 
+	</p>
+	<p class="w3-padding-16 w3-text-red">La URJC no se hace responsable del contenido expuesto por el autor. 
+    </font></p>
+  <!-- About Section -->  
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey" id="about">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Empleados
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Actualizaciones
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Patrones
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Seguidores
+      </div>
+    </div>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Apoya este proyecto</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Amenaza No-Muerta</li>
+          <li class="w3-padding-16">Acceso temprano al juego completo</li>
+          <li class="w3-padding-16">Contenido Exclusivo</li>
+          <li class="w3-padding-16">Edición Especial</li>
+          <li class="w3-padding-16">Pase DLC 1ª Temporada</li>
+          <li class="w3-padding-16">
+            <h2>10 €</h2>
+            <span class="w3-opacity">cada mes</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Suscríbete</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Arma Biológica</li>
+          <li class="w3-padding-16">Acceso a las betas del juego</li>
+          <li class="w3-padding-16">Acceso temprano al juego completo</li>
+          <li class="w3-padding-16">Edición Deluxe</li>
+          <li class="w3-padding-16">Pase DLC completo</li>
+          <li class="w3-padding-16">
+            <h2>25 €</h2>
+            <span class="w3-opacity">cada mes</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Suscríbete</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Multimedia</h2>
+	</div>
+	<div h3 class="w3-text-light-grey">Trailer</h3>
+	</div>
+	<div class="w3-row-padding" style="margin:0 -16px">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/agaODN-f88U" 
+	title="YouTube video player" frameborder="0" allow="accelerometer; 
+	autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+	<div class="w3-padding-64 w3-content">
+		</h3 class="w3-text-light-grey">Banda sonora</h3>
+	</div>
+		<div>
+			<audio controls>
+				<source src="1v2.mp3" type="audio/mp3">
+			</audio>
+		</div>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:1 -16px">
+      </h2 class="w3-text-light-grey">Arte conceptual</h2>
+	  </div>
+	  <div class="w3-content w3-display-container">
+		<img class="mySlides" src="imagenes/hombre1.jpeg" style="width:100%">
+		<img class="mySlides" src="imagenes/mujer1.jpeg" style="width:100%">
+		<img class="mySlides" src="imagenes/hombre2.jpeg" style="width:100%">
+		<img class="mySlides" src="imagenes/mujer2.jpeg" style="width:100%">
+
+		<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+	</div>
+
+	<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+		showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		if (n > x.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = x.length}
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+	}
+	x[slideIndex-1].style.display = "block";  
+	}
+	</script>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Comentarios</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Madrid, España</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: infectedgameurjc@gmail.com</p>
+    </div><br>
+    <p>¿Tienes algo que compartir? Coméntanos cualquier cosa:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nombre" required name="Nombre"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Correo" required name="Correo"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Asunto" required name="Asunto"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensaje" required name="Mensaje"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> ENVIAR MENSAJE
+        </button>
+      </p>
+    </form>
+	
+	<!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">Top Comments</h3>  
+    <img src="imagenes/profile1.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Noobmaster69.</span> Patrón Arma Biológica.</p>
+    <p>Me gusta mucho el juego, pero hacerse el muerto a veces no funciona como es debido. Aún así mis dieces.</p><br>
+    
+    <img src="imagenes/profile2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">alucard_5693.</span> Patrón Amenaza No-Muerta.</p>
+    <p>El juego promete mucho. No puedo esperar a que salga, ojalá poder permitirme apoyar más. ¿Para cuando la open beta?</p>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
 
 </body>
 </html>
