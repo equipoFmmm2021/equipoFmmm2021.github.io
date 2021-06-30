@@ -29,19 +29,19 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "MenofNihilist-Regular"}
   <!-- Avatar image in top left corner -->
   <img src="imagenes/AGS2.png" style="width:100%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
+    <img src="imagenes/home.png"></img>
     <p style="font-family: Arial">CAMPAÑA</p>
   </a>
   <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
+    <img src="imagenes/hand.png"></img>
     <p style="font-family: Arial">APOYO</p>
   </a>
   <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
+    <img src="imagenes/media.png"></img>
     <p style="font-family: Arial">MULTIMEDIA</p>
   </a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
+    <img src="imagenes/comment.png"></img>
     <p style="font-family: Arial">COMENTARIOS</p>
   </a>
 </nav>
@@ -145,36 +145,31 @@ de un videojuego ficticio (no representa un producto real).
   <!-- Portfolio Section -->
   <div class="w3-padding-64 w3-content" id="photos">
     <h2 align="centre" class="w3-text-light-grey">MulTimedia</h2>
+    <h3>Video</h3>
+    <br/>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/wl7i0EJOm1I" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; 
+    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></center>
+    <br/>
+    <h3 align="centre" class="w3-text-light-grey">Banda sonora</h3>
+    <br/>
+    <center><audio controls>
+      <source src="1v2.mp3" type="audio/mp3">
+    </audio></center>
+    <br/>
 	</div>
-	<div h3 align="centre" class="w3-text-light-grey">Video</h3>
-	</div>
-	<div class="w3-row-padding" style="margin:0 -16px">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/wl7i0EJOm1I" 
-	title="YouTube video player" frameborder="0" allow="accelerometer; 
-	autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	  </div>
-	<div class="w3-padding-64 w3-content">
-		<h3 align="centre" class="w3-text-light-grey">Banda sonora</h3>
-	</div>
-		<div>
-			<audio controls>
-				<source src="1v2.mp3" type="audio/mp3">
-			</audio>
-		</div>
-
     <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:1 -16px">
+    <div class="w3-row-padding w3-content w3-display-container" style="margin:1 -16px">
       <h3 align="centre" class="w3-text-light-grey">ArTe concepTual</h3>
+      <br/>
+      <img class="mySlides" src="imagenes/hombre1.jpeg" style="width:100%">
+      <img class="mySlides" src="imagenes/mujer1.jpeg" style="width:100%">
+      <img class="mySlides" src="imagenes/hombre2.jpeg" style="width:100%">
+      <img class="mySlides" src="imagenes/mujer2.jpeg" style="width:100%">
+  
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 	  </div>
-	  <div class="w3-content w3-display-container">
-		<img class="mySlides" src="imagenes/hombre1.jpeg" style="width:100%">
-		<img class="mySlides" src="imagenes/mujer1.jpeg" style="width:100%">
-		<img class="mySlides" src="imagenes/hombre2.jpeg" style="width:100%">
-		<img class="mySlides" src="imagenes/mujer2.jpeg" style="width:100%">
-
-		<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-		<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-	</div>
 
 	<script>
 	var slideIndex = 1;
@@ -206,9 +201,9 @@ de un videojuego ficticio (no representa un producto real).
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
-      <p style="font-family: Arial"><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Madrid, España</p>
-      <p style="font-family: Arial"><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p style="font-family: Arial"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: infectedgameurjc@gmail.com</p>
+      <p style="font-family: Arial"><img src="imagenes/location.png" /> Madrid, España</p>
+      <p style="font-family: Arial"><img src="imagenes/phone.png" /> Phone: +00 151515</p>
+      <p style="font-family: Arial"><img src="imagenes/mail.png" /> Email: infectedgameurjc@gmail.com</p>
     </div><br>
     <p style="font-family: Arial">¿Tienes algo que compartir? Coméntanos cualquier cosa:</p>
 
@@ -219,7 +214,7 @@ de un videojuego ficticio (no representa un producto real).
       <p style="font-family: Arial"><input class="w3-input w3-padding-16" type="text" placeholder="Mensaje" required name="Mensaje"></p>
       <p>
         <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i><p style="font-family: Arial">ENVIAR MENSAJE</p>
+          <img src="imagenes/send.png" /><p style="font-family: Arial">ENVIAR MENSAJE</p>
         </button>
       </p>
     </form>
@@ -238,15 +233,9 @@ de un videojuego ficticio (no representa un producto real).
   
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
     <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-  <!-- End footer -->
   </footer>
+  <!-- End footer -->
 
 <!-- END PAGE CONTENT -->
 </div>
